@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import openai
+# import openai
 
 # ─── Page Config ─────────────────────────────────────────────────────────────
 st.set_page_config(
