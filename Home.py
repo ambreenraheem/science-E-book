@@ -238,7 +238,7 @@ with col2:
     with col_y:
         if st.button("🎲 Surprise Me!", use_container_width=True):
             import random
-            pick = random.choice(chapters)
+            pick = random.choice(chapter)
             st.info(f"Try **Chapter {pick[0]} · {pick[1]} {pick[2]}** today! ✨")
 
 st.markdown(
