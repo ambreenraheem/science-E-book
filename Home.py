@@ -236,23 +236,23 @@ with col2:
     with col_x:
         if st.button("🚀 Start Chapter 01", use_container_width=True):
             st.success("Head to **Chapter 01 · Our Amazing Body** in the sidebar! 🦴")
-    with col_y:
-        chapters=[
-            ("pages/01_chapter_our_body-01.py")
-            ("pages/02_chapter_senses-02.py")
-            ("pages/03_chapter_plants-03.py")
-            ("pages/04_chapter_animals-04.py")
-            ("pages/05_chapter_magnets-05.py")
-            ("pages/06_chapter_weather-06.py")
-            ("pages/07_chapter_simple_machines-07.py")
-            ("pages/08_chapter_saving_our_planet-08.py")
-            ("pages/09_chapter_energy_electricity-09.py")
-            ("pages/10_chapter_space-10.py")
-        ]
-        if st.button("🎲 Surprise Me!", use_container_width=True):
-            import random
-            pick = random.choice(chapters)
-            st.info(f"Try **Chapter {pick[0]} · {pick[1]} {pick[2]}** today! ✨")
+    # with col_y:
+    #     chapters=[
+    #         ("pages/01_chapter_our_body-01.py")
+    #         ("pages/02_chapter_senses-02.py")
+    #         ("pages/03_chapter_plants-03.py")
+    #         ("pages/04_chapter_animals-04.py")
+    #         ("pages/05_chapter_magnets-05.py")
+    #         ("pages/06_chapter_weather-06.py")
+    #         ("pages/07_chapter_simple_machines-07.py")
+    #         ("pages/08_chapter_saving_our_planet-08.py")
+    #         ("pages/09_chapter_energy_electricity-09.py")
+    #         ("pages/10_chapter_space-10.py")
+    #     ]
+    #     if st.button("🎲 Surprise Me!", use_container_width=True):
+    #         import random
+    #         pick = random.choice(chapters)
+    #         st.info(f"Try **Chapter {pick[0]} · {pick[1]} {pick[2]}** today! ✨")
 
 st.markdown(
     """
