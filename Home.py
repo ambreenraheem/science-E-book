@@ -238,7 +238,6 @@ with col2:
             st.success("Head to **Chapter 01 · Our Amazing Body** in the sidebar! 🦴")
     with col_y:
         chapters=[
-            ("Home.py", label="🏠 Home", icon="🏠")
             ("pages/01_chapter_our_body-01.py", label="Ch 01 · Our Amazing Body", icon="🦴")
             ("pages/02_chapter_senses-02.py", label="Ch 02 · The Five Senses", icon="👁️")
             ("pages/03_chapter_plants-03.py", label="Ch 03 · Plants and Growth", icon="🌱")
