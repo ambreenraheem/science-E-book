@@ -238,16 +238,16 @@ with col2:
             st.success("Head to **Chapter 01 · Our Amazing Body** in the sidebar! 🦴")
     with col_y:
         chapters=[
-            ("pages/01_chapter_our_body-01.py", label="Ch 01 · Our Amazing Body", icon="🦴")
-            ("pages/02_chapter_senses-02.py", label="Ch 02 · The Five Senses", icon="👁️")
-            ("pages/03_chapter_plants-03.py", label="Ch 03 · Plants and Growth", icon="🌱")
-            ("pages/04_chapter_animals-04.py", label="Ch 04 · Animals and Habitats", icon="🐾")
-            ("pages/05_chapter_magnets-05.py", label="Ch 05 · Marvelous Magnets", icon="🧲")
-            ("pages/06_chapter_weather-06.py", label="Ch 06 · Water and Weather", icon="☁️")
-            ("pages/07_chapter_simple_machines-07.py", label="Ch 07 · Simple Machines", icon="🛠️")
-            ("pages/08_chapter_saving_our_planet-08.py", label="Ch 08 · Saving Our Planet", icon="🌍")
-            ("pages/09_chapter_energy_electricity-09.py", label="Ch 09 · Energy and Electricity", icon="🔋")
-            ("pages/10_chapter_space-10.py", label="Ch 10 · The Solar System", icon="🌌")
+            ("pages/01_chapter_our_body-01.py")
+            ("pages/02_chapter_senses-02.py")
+            ("pages/03_chapter_plants-03.py")
+            ("pages/04_chapter_animals-04.py")
+            ("pages/05_chapter_magnets-05.py")
+            ("pages/06_chapter_weather-06.py")
+            ("pages/07_chapter_simple_machines-07.py")
+            ("pages/08_chapter_saving_our_planet-08.py")
+            ("pages/09_chapter_energy_electricity-09.py")
+            ("pages/10_chapter_space-10.py")
         ]
         if st.button("🎲 Surprise Me!", use_container_width=True):
             import random
