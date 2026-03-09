@@ -377,10 +377,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-import os
-from dotenv import load_dotenv
+# import os
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 # # ── Init chat history ─────────────────────────────────────────────────────────
 # if "chat_history" not in st.session_state:
